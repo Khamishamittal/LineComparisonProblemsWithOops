@@ -1,10 +1,15 @@
-﻿namespace LineComaprisonWithOops
+﻿using LineComparisonWithOops;
+
+namespace LineComaprisonWithOops
 {
     public class LineComparison
     {
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparison Program");
+            CompareLines check = new CompareLines();
+            check.CheckLines();
+
         }
     }
 }
